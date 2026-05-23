@@ -3,6 +3,9 @@
 # pip install python-telegram-bot==13.15
 # =========================================================
 
+from telegram import Update
+from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
+
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
